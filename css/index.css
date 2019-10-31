@@ -1,0 +1,70 @@
+/* 清除默认样式 */
+h3,h5,p,h6,img,ul{margin:0;padding:0}
+li{list-style: none;}
+/* 头部导航 */
+.headerNav{width:100%;height: .8rem;display:flex ;justify-content: space-between;padding:0 .48rem;align-items: center;position: fixed;z-index: 99999;}
+.headerNav .logo,.navList .logo{width:2.5rem;height: .5rem;}
+.headerNav .nav,.navList .close{width:.5rem;height: .5rem;}
+/* 菜单键导航列表 */
+.navList{width:100%;height: 100%;position: fixed;z-index: 9999999;background: url(../img/bglist.png) no-repeat;background-size: cover;color:#FEFEFE;padding:.5rem .2rem;right: -100%;}
+.navList ul{font-size:.32rem ;font-weight: 500;text-align: center;line-height: 2rem;margin-top: 1rem;}
+.navList .close{opacity: 1;}
+.navList ul .navListActive{color:#4076E7;font-size: .54rem;}
+/* banner内容 */
+.banner{height: 13.3rem;background:url(../img/bg.png) no-repeat;background-size: cover;padding-top: 1.5rem;padding-left: .63rem;overflow: hidden;}
+.banner-text{height: 2.25rem;color:#ffffff;display:flex;flex-direction: column;justify-content: space-around;width:5.4rem;margin-left: -8rem;}
+.banner-text .auv{font-size: .41rem;}
+.banner-text .auv1{font-size: .6rem;}
+.banner-text .auv2{font-size: .24rem;}
+.banner-phone{width:5.5rem;height: 8.1rem;margin-left: .3rem;margin-top: 10rem;position: relative;overflow: hidden;}
+.banner-phone .auvBack{width:5rem;height: 7.8rem;background: url(../img/start.png) no-repeat;background-size: cover;position: absolute;top: .2rem;left: .26rem;}
+.banner-phone  .auvPhone{width:5.5rem;height: 8.1rem;background:url(../img/phone.png) no-repeat;background-size: cover;position: absolute;top:0;left:0}
+.banner-phone .download{width:4rem;line-height: .8rem;background:linear-gradient(90deg,rgba(60,155,252,1),rgba(34,110,250,1));position: absolute;top: -1rem;left:.75rem;
+  text-align:center;border-radius:.4rem;font-size: .32rem;}
+  .banner-phone .download a{color:#FEFEFE;}
+  .banner-phone .jiantou{width:.4rem;height: .24rem;background:url(../img/arrowdown.png) no-repeat;position: absolute;left:2.5rem;background-size: cover;}
+  /* 版块标题 */
+  .title{margin:0 auto;text-align: center;color:#111111;line-height: .4rem;}
+  .title h5{font-size: .38rem;font-weight: 400;}
+  .title p{font-size: .2rem;font-weight: 300;opacity: 0.5;}
+  /* 市场规模 */
+  .market{height: 7rem;background:url(../img/map.png) no-repeat;background-size: cover;padding-top: .9rem;}
+  .market .market-conter{width:5rem;height: 5.5rem;margin:0 auto;display: flex;flex-direction: column;justify-content: space-around;}
+  .market .market-conter .market-conter-text{height: 1.5rem;display: flex;justify-content: space-around;align-items: center;}
+  .market .market-conter .market-conter-text div h6{font-size: .24rem;font-weight: 400;color:#111111}
+  .market .market-conter .market-conter-text div p{font-size: .48rem;color:#4076E7;font-weight:400;}
+  /* 服务优势 */
+  .serve{height: 9.97rem;display: flex;flex-direction: column;justify-content: space-around;}
+  .serve .serve-conter{height: 2.2rem;display: flex;justify-content: space-around;align-items: center;}
+  .serve .serve-conter .serve-conter-tubiao{width:1.3rem;height: 1.3rem;}
+  .serve .serve-conter .serve-conter-tubiao img,.contact-conter .contact-tubiao img{width:100%}
+  .serve .serve-conter .serve-conter-text{width:3.58rem;color:#000000;}
+  .serve .serve-conter .serve-conter-text h5{font-size: .32rem;font-weight: 400;}
+  .serve .serve-conter .serve-conter-text p{font-size: .24rem;font-weight: 400;opacity: 0.5;}
+  /* 关于爱优卫 */
+  .about{height: 7.6rem;background:url(../img/bg1.png) no-repeat;background-size: cover;padding-top: .88rem;}
+  .about .about-conter{width:5.3rem;height: 7.6rem;margin:0 auto;}
+  .about .about-conter h3{color:#4076E7;font-size: .36rem;}
+  .about .about-conter p{font-size: .28rem;color:#111111;font-weight: 400;margin:.36rem 0}
+  .about .about-conter .moon img{height: .1rem;width:.4rem;float: right;margin-right:.3rem}
+/* 合作伙伴 */
+.cooperation{height:6rem ;width:6rem;margin:0 auto;padding-top: .5rem;overflow: hidden;}
+.cooperation .cooperation-logos-box{width:12rem}
+.cooperation .cooperation-logos-box .cooperation-logos1,.cooperation .cooperation-logos-box .cooperation-logos2{width:6rem;height: 4rem;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: center;float: left;margin-left: 0;}
+.cooperation .cooperation-logos-box .cooperation-logos1 img,.cooperation .cooperation-logos-box .cooperation-logos2 img{width:1.8rem;height: 1rem;}
+.cooperation .pagingDevice{width:.6rem;height: .12rem;margin:.2rem auto;display: flex;justify-content: space-around;}
+.cooperation .pagingDevice span{width:0.12rem;height: 0.12rem;border-radius: 50%;display:block;background:#BCC1CC}
+.cooperation .pagingDevice .pagingDevice-active{width:.36rem;background:#4076E7;border-radius: 0.06rem;}
+/* 联系我们 */
+.contact{height: 7.3rem;background:#242A37}
+.contact .contact-conter{width:5.1rem;height: 100%;margin:0 auto;padding-top: .7rem;display: flex;flex-direction: column;justify-content: space-around;}
+.contact-conter .title{color:#ffffff}
+.contact-conter .contact-conter-text{display: flex;color:#ffffff;font-weight: 400;align-items: center;justify-content: space-between;}
+.contact-conter .contact-conter-address{display: flex;color:#ffffff;font-weight: 400;align-items: center;}
+.contact-conter .contact-conter-text h6,.contact-conter .contact-conter-address h6{font-size: .18rem;}
+.contact-conter .contact-conter-text p,.contact-conter .contact-conter-address p{font-size: .14rem;opacity: 0.4;}
+.contact-conter .contact-tubiao{width:.4rem;height: .4rem;margin-right: .3rem;}
+.contact-conter .contact-conter-code{text-align: center;color: #ffffff;font-size: .18rem;font-weight: 300;line-height: .3rem;}
+.contact-conter .contact-conter-code .code{width:1.7rem;height: 1.7rem;}
+/* 底部备案 */
+.records{background: #0E1116;text-align: center;font-size: .14rem;font-weight: 300;line-height: .5rem;color: #ffffff;}
